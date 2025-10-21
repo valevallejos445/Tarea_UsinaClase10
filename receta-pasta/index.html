@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Receta Gourmet: Pasta Alfredo</title>
     <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
     <header>
@@ -98,5 +99,63 @@
         <hr />
         <p>© 2024 Cocina Gourmet | Recetas que enamoran</p>
     </footer>
+    <section class="formulario-contacto">
+    <h2>¿Probaste esta receta?</h2>
+    <p>¡Nos encantaría saber tu opinión! Completa este formulario y comparte tu experiencia.</p>
+    
+    <form id="recetaForm" class="contact-form">
+        <div class="form-group">
+            <label for="nombre">Nombre completo *</label>
+            <input type="text" id="nombre" name="nombre" required>
+        </div>
+        
+        <div class="form-group">
+            <label for="email">Correo electrónico *</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        
+        <div class="form-group">
+            <label for="calificacion">Calificación *</label>
+            <select id="calificacion" name="calificacion" required>
+                <option value="">Selecciona una calificación</option>
+                <option value="5">⭐⭐⭐⭐⭐ - Excelente</option>
+                <option value="4">⭐⭐⭐⭐ - Muy buena</option>
+                <option value="3">⭐⭐⭐ - Buena</option>
+                <option value="2">⭐⭐ - Regular</option>
+                <option value="1">⭐ - Necesita mejoras</option>
+            </select>
+        </div>
+        
+        <div class="form-group">
+            <label for="comentario">Comentarios y sugerencias</label>
+            <textarea id="comentario" name="comentario" rows="5" placeholder="Cuéntanos tu experiencia, modificaciones que hiciste, o sugerencias..."></textarea>
+        </div>
+        
+        <div class="form-group checkbox-group">
+            <input type="checkbox" id="recomendaria" name="recomendaria">
+            <label for="recomendaria">¿Recomendarías esta receta a otros?</label>
+        </div>
+        
+        <button type="submit" class="submit-btn">Enviar Reseña</button>
+    </form>
+</section>
+
+
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
