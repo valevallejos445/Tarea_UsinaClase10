@@ -382,3 +382,21 @@ hr {
     }
 }
 
+/* Estilo para los pasos interactivos */
+.step-item {
+    cursor: pointer;
+    padding: 6px 0;
+    transition: all 0.2s ease;
+}
+
+.step-item.completed {
+    text-decoration: line-through;
+    color: #6c757d;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+    padding-left: 10px;
+}
+
+.step-item:hover {
+    background-color: #f0f8ff;
+}

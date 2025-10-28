@@ -1,0 +1,23 @@
+{
+  "name": "tareahtmlcss",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valevallejos445/Tarea_UsinaClase10.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/valevallejos445/Tarea_UsinaClase10/issues"
+  },
+  "homepage": "https://github.com/valevallejos445/Tarea_UsinaClase10#readme",
+  "description": "",
+  "dependencies": {
+    "bootstrap": "^5.3.8"
+  }
+}
